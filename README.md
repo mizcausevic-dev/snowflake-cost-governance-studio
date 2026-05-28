@@ -5,6 +5,13 @@
 
 Operator control plane for Snowflake warehouse cost posture, query hotspots, tag-coverage drift, telemetry gaps, storage bloat, and optimization sequencing.
 
+## Production status
+
+| Aspect | Status |
+|--------|--------|
+| Deploy | Static prerender -> **https://warehouse.kineticgain.com/** |
+| Data posture | Synthetic warehouse-spend and optimization-export samples only; no tenant identifiers, account locators, or live usage data are committed |
+
 ## Why this matters
 
 - Snowflake spend gets dangerous when warehouse spikes, idle compute, and hotspot queries stay trapped in raw usage exports instead of one operator-readable surface.
