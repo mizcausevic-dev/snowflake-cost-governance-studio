@@ -1,0 +1,20 @@
+{
+  "snapshots": [
+    {
+      "id": "snap-healthy-account",
+      "name": "Healthy warehouse estate",
+      "scope": "ACCOUNT",
+      "scopePath": "/accounts/kg-prod/usage/healthy-estate",
+      "accountName": "KG_PROD",
+      "baselineStatus": "CURRENT",
+      "owner": "Data Platform",
+      "currentMonthCredits": 4020,
+      "budgetCredits": 4700,
+      "monthOverMonthChangePct": 4,
+      "tagCoveragePct": 99,
+      "idleCreditsPct": 6,
+      "collectedAt": "2026-05-30T14:00:00Z"
+    }
+  ],
+  "drifts": []
+}
